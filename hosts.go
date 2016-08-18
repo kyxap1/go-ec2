@@ -3,8 +3,11 @@
 //
 package ec2
 
-import "github.com/mitchellh/goamz/aws"
-import "github.com/mitchellh/goamz/ec2"
+import "github.com/goamz/goamz/aws"
+import "github.com/goamz/goamz/ec2"
+
+//import "github.com/mitchellh/goamz/aws"
+//import "github.com/mitchellh/goamz/ec2"
 
 // Client provides some higher level methods
 // for filtering, however if you need more

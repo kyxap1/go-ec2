@@ -1,6 +1,8 @@
 package ec2
 
-import "github.com/mitchellh/goamz/ec2"
+import "github.com/goamz/goamz/ec2"
+
+//import "github.com/mitchellh/goamz/ec2"
 
 // Instance.
 type Instance struct {

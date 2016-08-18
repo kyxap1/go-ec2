@@ -1,6 +1,8 @@
 package ec2
 
-import "github.com/mitchellh/goamz/ec2"
+import "github.com/goamz/goamz/ec2"
+
+//import "github.com/mitchellh/goamz/ec2"
 
 // Query provides a chainable API
 // for building up filters.
